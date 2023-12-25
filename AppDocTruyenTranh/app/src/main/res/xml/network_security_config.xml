@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <!-- Optional: Trust specific CAs -->
+            <!--<certificates src="@raw/my_ca"/> -->
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
